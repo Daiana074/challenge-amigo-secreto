@@ -8,9 +8,10 @@ function agregarAmigo(){
     let amigo = document.getElementById('amigo').value;
     if (amigo == ''){
         alert('Por favor inserte un nombre');
-    }else{
+    } else {
         amigos.push(amigo);
-        console.log(amigos);
+        //console.log(amigos);
+        recorrerLista(amigos); // Actualiza la lista visual
     }
     limpiarCaja();
 }
@@ -20,3 +21,14 @@ function limpiarCaja(){
     let valorCaja = document.getElementById('amigo').value = '';
     
 }
+
+//implemente una funcion para actualizar la lista de amigos
+function recorrerLista(amigos) {
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = ''; // Limpiar lista antes de agregar nuevos elementos
+
+    for (let i = 0; i < amigos.length; i++) {
+        lista.innerHTML += `<li>${amigos[i]}</li>`;
+    }
+}
+
