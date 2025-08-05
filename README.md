@@ -21,8 +21,8 @@ Todo esto funciona del lado del **frontend**, utilizando únicamente tecnología
 
 ## 🌐 Acceso al proyecto online
 
-🔗 [Próximamente disponible](#)  
-*(Este enlace será actualizado cuando el proyecto esté publicado)*
+🔗 [Link](https://Daiana074.github.io/challenge-amigo-secreto/)  
+
 
 ## 📸 Captura
 
